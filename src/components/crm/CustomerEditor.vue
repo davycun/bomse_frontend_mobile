@@ -26,9 +26,9 @@
                            v-model="currentData.post"
                            placeholder="填写客户所在公司职位">
                 </van-field>
-                <van-field label="职位" name="company"
+                <van-field label="公司" name="company"
                            v-model="currentData.company"
-                           placeholder="填写客户所在公司职位">
+                           placeholder="客户所在公司">
                 </van-field>
                 <van-field label="找房用途" name="houseUseType" :rules="[{required:true,message:'性别必填'}]">
                     <template #input>

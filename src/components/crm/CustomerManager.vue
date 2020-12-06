@@ -77,6 +77,7 @@
 
         <van-pagination v-model="page.currentPage"
                         style="position: fixed;bottom: 50px;width: 100%;"
+                        @change="loadData"
                         :items-per-page="page.pageSize"
                         :total-items="page.totalCount"
                         mode="simple">
@@ -129,7 +130,7 @@
             loadData: function (reload) {
                 this.customerList = [];
 
-                if (reload){
+                if (reload===true){
                     this.page = {
                         currentPage: 1,
                         totalCount: 0,

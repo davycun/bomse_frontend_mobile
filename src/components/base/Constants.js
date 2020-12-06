@@ -1,5 +1,5 @@
 export const Constants = {
-    contextPath: "/bomse-mobile/",
-    fileReadUrl: "/bomse-mobile/file/read/",
-    fileUploadUrl:"/bomse-mobile/file/upload"
+    contextPath: "/bomse-backend/",
+    fileReadUrl: "/bomse-backend/file/read/",
+    fileUploadUrl:"/bomse-backend/file/upload"
 };
